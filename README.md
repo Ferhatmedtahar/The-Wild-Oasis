@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Wild Oasis
 
-## Getting Started
+Wild Oasis is a web application where users can reserve cabins, create profile and get started!
+It also includes an About page to provide more information about the cabins , and so beautiful landing page.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Cabin Reservation**: Users can browse and reserve available cabins.
+- **User Profile**: Create and manage user profiles to track reservations and personal details.
+- **Authentication**: Secure user authentication with signup, login, and logout features.
+- **About Page**: Provides information about the Wild Oasis project.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/yourusername/wild-oasis.git
+   cd wild-oasis
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 1. Reserve a Cabin
 
-## Deploy on Vercel
+- **Browse Cabins**: Navigate to the cabin reservation page to view a list of available cabins. You can filter cabins based on availability , and other criteria.
+- **Select a Cabin**: Click on a cabin to view its details, including amenities, price, and availability.
+- **Make a Reservation**: Choose your desired dates and confirm the reservation. You'll receive a confirmation notification once the reservation is successful.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 2. Create a Profile
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Sign Up**: If you're a new user, go to the signup page and provide the required information (e.g., name, email, password) to create an account.
+- **Edit Profile**: After logging in, visit your profile page to add or update personal details such as your name, profile picture, and contact information.
+- **View Reservations**: Your profile page also includes a list of your current and past reservations, allowing you to manage or cancel upcoming bookings.
+
+### 3. Authenticate
+
+- **Login**: Existing users can log in using their email and password. The login page includes options to reset your password if forgotten.
+- **Logout**: To log out, click the logout button in the navigation menu. This will securely end your session.
+
+### 4. About Page
+
+- **Learn About Wild Oasis**: The About page provides background information on the Wild Oasis project, its mission, and the team behind it. This is a great place to understand the inspiration and goals of the project.
+
+By following these steps, you can fully utilize the features of the Wild Oasis web application.
+
+## Technologies Used
+
+- **Frontend**: Next.js, React
+- **Styling**: Tailwind CSS
+- **Backend**: Supabase (for authentication and database management)
+- **State Management**: Context api
+- **Routing**: Next.js built-in routing
+- **Deployment**: Vercel
+
+## License
+
+This project is licensed under the MIT License. You are free to use, modify, and distribute this software under the terms of the MIT License. See the [LICENSE](LICENSE) file for more details.
